@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+body{
+    padding: 2rem;
+}
+
+.head-list{
+    li{
+        display:inline-block;
+        list-style: none;//去掉前面的黑点
+        margin-right: 15px;
+
+    }
+}
+
+//为什么这段没有起效？
+// .head-list{
+//     li :not(:first-child){
+//         border-left: 1px solid black;
+//     }
+// }
+
+main{
+    .main-list{
+        list-style: none;
+    }
+    table{
+        td{
+            border: 1px solid black;//设置边框
+        }   border-collapse: collapse;//折叠边框
+    }
+}
+
+p{
+    font-size: 17px;
+}
+
+footer{
+    address{
+        text-align: right;
+    }
+}
